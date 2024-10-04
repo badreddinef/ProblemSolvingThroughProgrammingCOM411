@@ -32,3 +32,14 @@ if number=="%2":
     print(f"\nThe number {number} is even!")
 elif number!="%2":
     print(f"\nThe number {number} is odd!")
+#comparison Operators
+print("\nPlease enter the first number")
+first=input()
+print("\nPlease enter the second number")
+second=input()
+if first<second:
+    print("The first number is the smallest.")
+elif first>second:
+    print("The second number is the largest.")
+else:
+     print("both are equal!")

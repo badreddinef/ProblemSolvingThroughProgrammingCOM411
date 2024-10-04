@@ -8,21 +8,27 @@ print("\n Finished reading book.")
 print("Please enter the activity to be performed.")
 activity=input()
 if activity=="calculate":
-    print("Performing calculation...")
+    print("\nPerforming calculation...")
 elif activity!="calculate":
-    print("Performing activity...")
-print("Activity compled!")
-#task 3
+    print("\nPerforming activity...")
+print("\nActivity compled!")
+#IF...ELSE Statement 2
 print("Towards which direction should i go (up, down, left or right) ")
 direction=input()
 if direction=="up":
-    print("I am moving upward direction!")
+    print("\nI am moving upward direction!")
 else:
     if direction=="down":
-        print("I am moving downward direction!")
+        print("\nI am moving downward direction!")
     else:
         if direction=="left":
-            print("I am moving left direction!")
+            print("\nI am moving left direction!")
         elif direction=="right":
-            print("I am moving right direction!")
-
+            print("\nI am moving right direction!")
+#Using Operators
+print("\nPlease enter a whole number")
+number=input()
+if number=="%2":
+    print(f"\nThe number {number} is even!")
+elif number!="%2":
+    print(f"\nThe number {number} is odd!")
